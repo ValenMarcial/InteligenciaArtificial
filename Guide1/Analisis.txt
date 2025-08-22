@@ -1,0 +1,49 @@
+#Para la primer corrida de geneticMaxOnes.py#
+
+ python3 geneticMaxOnes.py
+GEN 0: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 1: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 2: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 3: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 4: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 5: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 6: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 7: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 8: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 9: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 10: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 11: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 12: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 13: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 14: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 15: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 16: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 17: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 18: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 19: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 20: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 21: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 22: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 23: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 24: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 25: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 26: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 27: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 28: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+GEN 29: BEST = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], FITNESS = 17
+Best Individual found: [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0], Fitness: 17
+
+lo que se puede observar es que se encontro un maximo local y la funcion de fitness nunca encontro algo mejor ya que la funcion de mutacion
+es mala
+esta es la que se uso
+def mutate(individual):
+  for i in range(GENOME_LENGHT):
+    if random.random() < MUTPB:
+      individual[i] = 1 - individual[i]  # Flip the bit
+  return individual
+
+===============================
+===============================
+
+#Segunda corrida de geneticMaxOnes.py#
+Se cambio la funcion de mutacion por 
