@@ -2,7 +2,7 @@ from deap import base, creator, tools, algorithms
 import random
 import math
 
-COLOR_DADO = [111, 150, 25]
+COLOR_DADO = [48, 52, 112]
 
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,)) #creo una clase FitnessMax que hereda de la clase base.fitness
 creator.create("Individual", list, fitness= creator.FitnessMin) #creo una clase individuo que tiene como atributo la fitness
@@ -55,15 +55,27 @@ def Picante(ind1, ind2):
   child1 = creator.Individual(list)
   child2 = creator.Individual(list1)
   return child1, child2
+
+def cxBlend(ind1, ind2, alpha=0.5):
+    for i in range(len(ind1)):
+        low = min(ind1[i], ind2[i])
+        high = max(ind1[i], ind2[i])
+        range_ = high - low
+        low -= alpha * range_
+        high += alpha * range_
+        ind1[i] = random.uniform(low, high)
+        ind2[i] = random.uniform(low, high)
+    return ind1, ind2
+
     
 
-toolbox.register("mate", Picante)
+toolbox.register("mate", cxBlend, alpha = 0.3)
 toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.3) # indpb probabilidad de mutacion, funcion que cambia bits dependiendo la proba
 toolbox.register("select", tools.selTournament, tournsize=3) #funcion que selecciona 3 individuos
 
 def main():
   random.seed(20)
-  pop = toolbox.population(n=1000) #Tamaño 50 de la poblacion
+  pop = toolbox.population(n=50) #Tamaño 50 de la poblacion
   hof = tools.HallOfFame(1)
 
   # Estadísticas opcionales
@@ -72,7 +84,6 @@ def main():
   
   algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.5, ngen=100, stats=stats, halloffame=hof, verbose=True) #selección → cruce → mutación → evaluación, repetido ngen veces
   best_ind = tools.selBest(pop, k=1)[0] # k=1 => devuelve el mejor
-  best_ind.reverse()
   print("Mejor individuo es:", best_ind)
   print("Fitness del mejor:", best_ind.fitness.values)
   
