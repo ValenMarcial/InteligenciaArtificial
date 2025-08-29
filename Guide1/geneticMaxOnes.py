@@ -1,10 +1,10 @@
 import random
 
-POP_SIZE = 20 # Tamaño de la población
-GENS = 30 # Número de generaciones
+POP_SIZE = 30 # Tamaño de la población
+GENS = 10 # Número de generaciones
 CXPB = 0.08  # Probabilidad de cruce
 MUTPB = 0.05  # Probabilidad de mutación
-GENOME_LENGHT = 20 # Longitud del genoma
+GENOME_LENGHT = 10 # Longitud del genoma
 
 # Fitness function
 def fitness(individual):
